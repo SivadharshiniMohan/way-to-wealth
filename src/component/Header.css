@@ -1,0 +1,16 @@
+.header-menu{
+color:#000 !important;
+text-decoration: none !important ;
+font-weight: 500 !important;
+cursor: pointer;
+}
+
+.header{
+    position: relative;
+    z-index: 99;
+    opacity: 1;
+    transform: none;
+    position: sticky;
+    top: 0px;
+    transition: all 300ms ease;
+}
