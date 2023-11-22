@@ -16,12 +16,12 @@ const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const images = [
   {
-    label: 'Why Mutal Funds?',
+    label: 'Why mutual Funds?',
     imgPath:
       'https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60',
   },
   {
-    label: 'How Do Mutal Funds Works?',
+    label: 'How Do mutual Funds Works?',
     imgPath:
       'https://images.unsplash.com/photo-1538032746644-0212e812a9e7?auto=format&fit=crop&w=400&h=250&q=60',
   },
@@ -31,7 +31,7 @@ const images = [
       'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=400&h=250',
   },
   {
-    label: 'Types Of Mutal Funds',
+    label: 'Types Of mutual Funds',
     imgPath:
       'https://images.unsplash.com/photo-1512341689857-198e7e2f3ca8?auto=format&fit=crop&w=400&h=250&q=60',
   },
@@ -46,7 +46,7 @@ const images = [
       'https://images.unsplash.com/photo-1512341689857-198e7e2f3ca8?auto=format&fit=crop&w=400&h=250&q=60',
   },
   {
-    label: 'How Do Invest In Mutal Funds?',
+    label: 'How Do Invest In mutual Funds?',
     imgPath:
       'https://images.unsplash.com/photo-1512341689857-198e7e2f3ca8?auto=format&fit=crop&w=400&h=250&q=60',
   },

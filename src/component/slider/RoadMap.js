@@ -5,11 +5,11 @@ const roadmapData = [
 
 
   {
-    description: 'Why Mutal Funds?',
+    description: 'Why mutual Funds?',
     
   },
   {
-    description: 'How Do Mutal Funds Works?',
+    description: 'How Do mutual Funds Works?',
     
   },
   {
@@ -17,7 +17,7 @@ const roadmapData = [
     
   },
   {
-    description: 'Types Of Mutal Funds',
+    description: 'Types Of mutual Funds',
     
   },
   {
@@ -29,7 +29,7 @@ const roadmapData = [
     
   },
   {
-    description: 'How Do Invest In Mutal Funds?',
+    description: 'How Do Invest In mutual Funds?',
     
   },
 ];

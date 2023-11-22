@@ -29,13 +29,13 @@ const Data = () => {
     <Container sx={{background: "#fae83c", py: 2}}>
          <a className="anchor" id="webinar"></a>
          <Stack direction={"row"} alignItem="center" justifyContent={"center"}>
-        <Typography fontSize={"30px"} fontWeight={600} fontFamily={"BebasNeue"} textTransform={"uppercase"}>
+        <Typography fontSize={"22px"} fontWeight={600} fontFamily={"BebasNeue"} textTransform={"uppercase"}>
        Way to mutual funds
         </Typography><br/>
        
       </Stack>
       <Stack direction={"row"} alignItem="center" justifyContent={"center"} >
-      <Typography fontSize={"30px"} fontWeight={600} fontFamily={"BebasNeue"} textTransform={"uppercase"}>
+      <Typography fontSize={"22px"} fontWeight={600} fontFamily={"BebasNeue"} textTransform={"uppercase"}>
            webinar
         </Typography>
         </Stack>
@@ -58,7 +58,7 @@ const Data = () => {
               <img src={Consultation1} height={"75px"} width={"75px"} fontSize={"10px"}/>
               <br />
               <Typography fontSize="20px" fontWeight={600}>
-                3 HOURS WEBINAR
+                3 HOURS LIVE WEBINAR
               </Typography>
               <Divider sx={{mx:10}}/>
               <Typography fontSize={"16px"} p={2} textAlign={"left"}>

@@ -51,7 +51,7 @@ const Service = () => {
             &bull;
           </Typography>
           <ListItemText>
-            <Typography fontSize="31px">
+            <Typography fontSize="22px">
               Monthly special webinar for our mentorship members
             </Typography>
           </ListItemText>

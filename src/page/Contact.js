@@ -1,17 +1,26 @@
 import { Link, Stack, Typography,useTheme, useMediaQuery } from "@mui/material";
 import React from "react";
-import { FaInstagram } from "react-icons/fa";
+import { FaTelegram, FaInstagram } from 'react-icons/fa';
+
 import "./../component/Header.css";
 import "./Contact.css";
 import thankYou from "./../assets/images/thankyou.jpeg";
 import WhatsApp from "../component/button/Whatsapp";
-import Telegram from "../component/button/Telegram";
 
 const Contact = () => {
   const theme = useTheme();
   const isMobileView = useMediaQuery(theme.breakpoints.down("sm"));
+  const styles = {
+   
+    icon: {
+      width: '23px',
+      height: '23px',
+      color: '#0088cc', // Customize the color if needed
+    },
+  };
   return (
-    <Stack height={"90vh"} className="footer" mx={2} width={"100%"}>
+    <Stack height={"90vh"} className="footer"  width={"100%"}>
+       
       <Stack
         height={"20vh"}
         direction={"row"}
@@ -19,7 +28,7 @@ const Contact = () => {
         justifyContent={"center"}
       >
         {" "}
-        <Typography fontSize={"25px "} fontWeight={700} color="#313c44">
+        <Typography fontSize={"22px "} fontWeight={700} color="#313c44" px={5}>
           Thank you for reaching us! Let's work together to achieve your
           financial goals.
         </Typography>
@@ -32,7 +41,7 @@ const Contact = () => {
         // width={"100%"}
         mx={10}
       >
-        <img src={thankYou} height={"400px"} width={isMobileView ? "100%":"50%"} />
+        <img src={thankYou} height={"350px"} width={isMobileView ? "130%":"50%"} />
       </Stack>
       <Stack sx={{ background: "#f8f7f1" }} width={"100%"}>
         <Stack
@@ -43,21 +52,31 @@ const Contact = () => {
           mx={2}
        
         >
+           <a className="anchor" id="contact"></a>
           <Link
             className="header-menu"
             href="https://www.instagram.com/wayto.wealth/"
           >
-            <Stack direction={"row"} alignItems="center" spacing={2} >
-              <FaInstagram color="#E4405F" size={30} />{" "}
-              <Typography fontWeight={700}>wayto.wealth </Typography>
+            <Stack direction={"row"} alignItems="center" gap={.5}>
+              <FaInstagram color="#E4405F" size={25} />{" "}
+              <Typography fontWeight={700} fontSize={"10.5px"} >wayto.wealth </Typography>
             </Stack>
           </Link>
 
-          <Typography fontWeight={700}>Contact us: 6383849719</Typography>
+          <Link
+            className="header-menu"
+            href="https://t.me/waytowealthtamil"
+          >
+            <Stack direction={"row"} alignItems="center"  gap={.5}>
+            <FaTelegram style={styles.icon}  size={15}/>
+              <Typography fontWeight={700} fontSize={"10.5px"}>waytowealthtamil </Typography>
+            </Stack>
+          </Link>
+
+          <Typography fontWeight={700} fontSize={"10.5px"} >Contact us: 9042738209</Typography>
         </Stack>
       </Stack>
       <Stack></Stack>
-      <Telegram/>
       <WhatsApp />
     </Stack>
   );

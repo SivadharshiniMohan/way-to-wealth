@@ -4,7 +4,7 @@ import './../button/Whatsapp.css'; // Don't forget to create and import your CSS
 
 const WhatsApp = () => {
   // Add your WhatsApp number here
-  const whatsappNumber = '6383849719';
+  const whatsappNumber = '9042738209';
 
   const openWhatsAppChat = () => {
     const whatsappLink = `https://wa.me/${whatsappNumber}`;

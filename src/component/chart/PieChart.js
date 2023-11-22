@@ -8,16 +8,16 @@ import { autoPlay } from 'react-swipeable-views-utils';
 const MutualFundsRoadmap = ({ points }) => {
     const color = ["#fff9ae","#fff9ae","#f8ed62", "#f8ed62","#e9d700","#e9d700","#dab600"]
   return (
-    <div>
+    <div style={{marginLeft:"10px", marginRight:"10px"}}>
           <Stack direction={"row"} alignItem="center" justifyContent={"center"} my={5}>
-        <Typography fontSize={"25px"} fontWeight={600} sx={{textTransform:"uppercase"}} fontFamily={"BebasNeue"}>
+        <Typography fontSize={"22px"} fontWeight={600} sx={{textTransform:"uppercase"}} fontFamily={"BebasNeue"}>
          What Will you Learn?
         </Typography>
       </Stack>
       {points.map((point, index) => (
         <Card
           key={index}
-          style={{
+          sx={{
             margin: '10px',
             maxWidth: '600px',
             marginLeft: 'auto',
