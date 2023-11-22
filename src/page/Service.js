@@ -8,7 +8,8 @@ import {
   List,
   useMediaQuery,
   useTheme,
-  Stack
+  Stack,
+  Divider
 } from "@mui/material";
 import "./service.css";
 import Consultation from "./../assets/images/Copy of Consultation Landing page.png";
@@ -28,21 +29,21 @@ const Data = () => {
     <Container sx={{background: "#fae83c", py: 2}}>
          <a className="anchor" id="webinar"></a>
          <Stack direction={"row"} alignItem="center" justifyContent={"center"}>
-        <Typography fontSize={"38px"} fontWeight={700}>
-          Webinar
+        <Typography fontSize={"30px"} fontWeight={600} fontFamily={"BebasNeue"} textTransform={"uppercase"}>
+       Way to mutual funds
         </Typography><br/>
        
       </Stack>
       <Stack direction={"row"} alignItem="center" justifyContent={"center"} >
-      <Typography fontSize={"30px"} fontWeight={400}>
-            On Mutal Funds
+      <Typography fontSize={"30px"} fontWeight={600} fontFamily={"BebasNeue"} textTransform={"uppercase"}>
+           webinar
         </Typography>
         </Stack>
       <Grid
         container
         spacing={3}
         className="main-section"
-        gap={10}
+        gap={5}
         justifyContent={"space-between"}
         // display={"grid"}
         gridAutoRows={"300px"}
@@ -54,40 +55,46 @@ const Data = () => {
         <Grid item xs={12} sm={6} md={4}  gridAutoRows={"300px"}  >
           <Paper>
             <div className="icon-section">
-              <img src={Consultation1} height={"50px"} width={"50px"} />
+              <img src={Consultation1} height={"75px"} width={"75px"} fontSize={"10px"}/>
               <br />
               <Typography fontSize="20px" fontWeight={600}>
                 3 HOURS WEBINAR
               </Typography>
-              <Typography fontSize={"16px"} p={1}>
+              <Divider sx={{mx:10}}/>
+              <Typography fontSize={"16px"} p={2} textAlign={"left"}>
                 You will learn about what mutual funds are, how to invest in
                 them, and how to achieve high returns.
               </Typography>
             </div>
-            <div className="detail-section">
+            {/* <div className="detail-section">
               <Button href="#">More Info</Button>
-            </div>
+            </div> */}
           </Paper>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}   gridAutoRows={"300px"}>
-          <Paper>
-            <div className="icon-section">
-              <img src={Consultation} height={"50px"} width={"50px"} />
-              <br />
-              <Typography fontSize="20px" fontWeight={600}>
-                TAKE AWAY
-              </Typography>
+        <Grid item xs={12} sm={6} md={4} gridAutoRows={"300px"}>
+  <Paper >
+    <div className="icon-section">
+      <img src={Consultation} height={"50px"} width={"50px"} />
+      <br />
+      <Typography fontSize="20px" fontWeight={600}>
+        TAKE AWAY
+      </Typography>
+      <Divider sx={{ mx: 10 }} />
 
-            {takeAway?.map((item)=>{
-                return <Typography fontSize={"16px"} p={1}>{item}</Typography>
-             
-            })}
-            </div>
-            <div className="detail-section">
-              <Button href="#">More Info</Button>
-            </div>
-          </Paper>
-        </Grid>
+      <ul>
+        {takeAway?.map((item, index) => (
+          <Typography key={index} component="li" textAlign={"left"} fontSize={"16px"} px={1} py={.5} fontWeight={550}>
+            {item}
+          </Typography>
+        ))}
+      </ul>
+    </div>
+    {/* <div className="detail-section">
+      <Button href="#">More Info</Button>
+    </div> */}
+  </Paper>
+</Grid>
+
       </Grid>
       <Stack justifyContent={"center"} direction={"row"} width={"100%"} my={2}> <BookNow/> </Stack>
 

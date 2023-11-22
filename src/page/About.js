@@ -9,7 +9,7 @@ const About = () => {
       <a className="anchor" id="about"></a>
       <Stack>
         <Stack alignItems="center" justifyContent={"center"} sx={{background:"#fae83c", color:"#000"}} height={"10vh"} >
-          <Typography fontSize="38px" fontWeight={600} >About Me</Typography>
+          <Typography fontSize="38px" fontWeight={600} fontFamily={"BebasNeue"}  textTransform={"uppercase"}>About Me</Typography>
         </Stack>
         <Stack alignItems="center" mx={3} my={5}>
           <Typography fontSize="19px" fontWeight={500}>

@@ -22,6 +22,7 @@ const Home = () => {
       <Grid container flexDirection={isMobileView ? "column" : "row"} >
         <Grid item lg={6} md={6} sm={12}>
           <img src={selfDp} height={isMobileView?"550px":"650px"} width={isMobileView?"100%":"400"} />
+      
         </Grid>
         <Grid item lg={6} md={6} sm={12}>
           <Stack 

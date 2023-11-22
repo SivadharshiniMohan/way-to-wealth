@@ -1,4 +1,4 @@
-import { Link, Stack, Typography } from "@mui/material";
+import { Link, Stack, Typography,useTheme, useMediaQuery } from "@mui/material";
 import React from "react";
 import { FaInstagram } from "react-icons/fa";
 import "./../component/Header.css";
@@ -8,8 +8,10 @@ import WhatsApp from "../component/button/Whatsapp";
 import Telegram from "../component/button/Telegram";
 
 const Contact = () => {
+  const theme = useTheme();
+  const isMobileView = useMediaQuery(theme.breakpoints.down("sm"));
   return (
-    <Stack height={"90vh"} className="footer" mx={2}>
+    <Stack height={"90vh"} className="footer" mx={2} width={"100%"}>
       <Stack
         height={"20vh"}
         direction={"row"}
@@ -17,7 +19,7 @@ const Contact = () => {
         justifyContent={"center"}
       >
         {" "}
-        <Typography variant="h5" fontWeight={700} color="#313c44">
+        <Typography fontSize={"25px "} fontWeight={700} color="#313c44">
           Thank you for reaching us! Let's work together to achieve your
           financial goals.
         </Typography>
@@ -27,12 +29,12 @@ const Contact = () => {
         direction={"row"}
         alignItems={"center"}
         justifyContent={"center"}
-        width={"69%"}
+        // width={"100%"}
         mx={10}
       >
-        <img src={thankYou} height={"400px"} width={"100%"} />
+        <img src={thankYou} height={"400px"} width={isMobileView ? "100%":"50%"} />
       </Stack>
-      <Stack sx={{ background: "#f8f7f1" }}    width={"100%"}>
+      <Stack sx={{ background: "#f8f7f1" }} width={"100%"}>
         <Stack
           height="10vh"
           direction={"row"}

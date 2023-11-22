@@ -24,8 +24,9 @@ const Header = () => {
       spacing={5}
       height="10vh"
       pr={5}
-      sx={{ background: "#f8f7f1" }}
+      sx={{ background: "#f8f7f1",fontFamily:"BebasNeue", textTransform:"uppercase", fontWeight:700 }}
       className="header"
+     
     >
       <Link className="header-menu" href="#home">
         Home

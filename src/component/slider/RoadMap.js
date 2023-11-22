@@ -28,18 +28,18 @@ const roadmapData = [
     description: 'Active Fund & Passive Fund',
     
   },
-//   {
-//     description: 'How Do Invest In Mutal Funds?',
+  {
+    description: 'How Do Invest In Mutal Funds?',
     
-//   },
+  },
 ];
 
 const Roadmap = () => {
   return (
-    <Container maxWidth="lg" sx={{background:"#fae83c", py:2}}>
+    <Container maxWidth ="90%" sx={{background:"#fae83c", py:2}}>
        <Stack direction={"row"} alignItem="center" justifyContent={"center"} my={2} mb={5}>
-        <Typography fontSize={"38px"} fontWeight={600}>
-         What Will you Learn From This Webinar ?
+        <Typography fontSize={"25px"} fontWeight={600} sx={{textTransform:"uppercase"}}>
+         What Will you Learn?
         </Typography>
       </Stack>
       <Stepper activeStep={0} alternativeLabel >
