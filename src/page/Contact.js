@@ -48,32 +48,33 @@ const Contact = () => {
           height="10vh"
           direction={"row"}
           alignItems={"center"}
-          justifyContent={"space-between"}
-          mx={2}
+justifyContent={"space-between"}        
        
         >
            <a className="anchor" id="contact"></a>
+           <Stack direction={"row"} alignItems="center"  width={isMobileView?"80%":"auto"} mx={2} gap={1}>
+           <Typography fontWeight={700} fontSize={"14px"} >Follow on: </Typography>
           <Link
             className="header-menu"
             href="https://www.instagram.com/wayto.wealth/"
           >
-            <Stack direction={"row"} alignItems="center" gap={.5}>
+          
               <FaInstagram color="#E4405F" size={25} />{" "}
-              <Typography fontWeight={700} fontSize={"10.5px"} >wayto.wealth </Typography>
-            </Stack>
+         
+     
           </Link>
 
           <Link
             className="header-menu"
             href="https://t.me/waytowealthtamil"
           >
-            <Stack direction={"row"} alignItems="center"  gap={.5}>
             <FaTelegram style={styles.icon}  size={15}/>
-              <Typography fontWeight={700} fontSize={"10.5px"}>waytowealthtamil </Typography>
-            </Stack>
+             
+           
           </Link>
+          </Stack>
 
-          <Typography fontWeight={700} fontSize={"10.5px"} >Contact us: 9042738209</Typography>
+          <Typography fontWeight={700} fontSize={"14px"} >Contact us: 9042738209</Typography>
         </Stack>
       </Stack>
       <Stack></Stack>

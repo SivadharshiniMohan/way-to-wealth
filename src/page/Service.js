@@ -29,13 +29,18 @@ const Data = () => {
     <Container sx={{background: "#fae83c", py: 2}}>
          <a className="anchor" id="webinar"></a>
          <Stack direction={"row"} alignItem="center" justifyContent={"center"}>
-        <Typography fontSize={"22px"} fontWeight={600} fontFamily={"BebasNeue"} textTransform={"uppercase"}>
-       Way to mutual funds
+        <Typography fontSize={"22px"} fontWeight={600} 
+        fontFamily={"sans-serif"} 
+
+        textTransform={"uppercase"}>
+       Way to Mutual Funds
         </Typography><br/>
        
       </Stack>
       <Stack direction={"row"} alignItem="center" justifyContent={"center"} >
-      <Typography fontSize={"22px"} fontWeight={600} fontFamily={"BebasNeue"} textTransform={"uppercase"}>
+      <Typography fontSize={"22px"} fontWeight={600} 
+      fontFamily={"sans-serif"} 
+      textTransform={"uppercase"}>
            webinar
         </Typography>
         </Stack>
@@ -83,7 +88,7 @@ const Data = () => {
 
       <ul>
         {takeAway?.map((item, index) => (
-          <Typography key={index} component="li" textAlign={"left"} fontSize={"16px"} px={1} py={.5} fontWeight={550}>
+          <Typography key={index} component="li" textAlign={"left"} fontSize={"16px"} px={1} py={.5} >
             {item}
           </Typography>
         ))}

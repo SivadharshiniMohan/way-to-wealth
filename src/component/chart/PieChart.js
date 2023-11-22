@@ -10,7 +10,9 @@ const MutualFundsRoadmap = ({ points }) => {
   return (
     <div style={{marginLeft:"10px", marginRight:"10px"}}>
           <Stack direction={"row"} alignItem="center" justifyContent={"center"} my={5}>
-        <Typography fontSize={"22px"} fontWeight={600} sx={{textTransform:"uppercase"}} fontFamily={"BebasNeue"}>
+        <Typography fontSize={"22px"} fontWeight={600} sx={{textTransform:"uppercase"}}
+         fontFamily={"sans-serif"}
+         >
          What Will you Learn?
         </Typography>
       </Stack>

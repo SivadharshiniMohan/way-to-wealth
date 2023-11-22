@@ -23,12 +23,14 @@ const Header = () => {
     <Stack
       direction={"row"}
       alignItems={"center"}
-      justifyContent={isMobileView ? "space-evenly" :"flex-end"}
+      justifyContent={isMobileView ? "space-evenly" :"flex-end"}  
       spacing={isMobileView ? 2 : 5}
       height="10vh"
       // pr={5}
       px={1}
-      sx={{ background: "#f8f7f1",fontFamily:"BebasNeue", textTransform:"uppercase", fontWeight:700 }}
+      sx={{ background: "#f8f7f1",
+      fontFamily:"sans-serif", 
+      fontStyle : "italic", textTransform:"uppercase", fontWeight:700 }}
       className="header"
     
      
