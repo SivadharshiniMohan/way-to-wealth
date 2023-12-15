@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/way-to-wealth/static/css/main.1c3ce672.css",
-    "main.js": "/way-to-wealth/static/js/main.d8c64a08.js",
+    "main.js": "/way-to-wealth/static/js/main.fd0ec76a.js",
     "static/js/787.1b0b1c78.chunk.js": "/way-to-wealth/static/js/787.1b0b1c78.chunk.js",
     "static/media/Me.jpg": "/way-to-wealth/static/media/Me.ab480af0ac61bcd246b8.jpg",
     "static/media/Copy of Consultation Landing page (1).png": "/way-to-wealth/static/media/Copy of Consultation Landing page (1).ef4c81028c96bd218012.png",
@@ -11,11 +11,11 @@
     "static/media/logo.svg": "/way-to-wealth/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/way-to-wealth/index.html",
     "main.1c3ce672.css.map": "/way-to-wealth/static/css/main.1c3ce672.css.map",
-    "main.d8c64a08.js.map": "/way-to-wealth/static/js/main.d8c64a08.js.map",
+    "main.fd0ec76a.js.map": "/way-to-wealth/static/js/main.fd0ec76a.js.map",
     "787.1b0b1c78.chunk.js.map": "/way-to-wealth/static/js/787.1b0b1c78.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c3ce672.css",
-    "static/js/main.d8c64a08.js"
+    "static/js/main.fd0ec76a.js"
   ]
 }
