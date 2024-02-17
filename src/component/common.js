@@ -1,0 +1,1 @@
+export const mobileNumber = 9042320515;

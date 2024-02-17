@@ -6,6 +6,7 @@ import "./../component/Header.css";
 import "./Contact.css";
 import thankYou from "./../assets/images/thankyou.jpeg";
 import WhatsApp from "../component/button/Whatsapp";
+import { mobileNumber } from "../component/common";
 
 const Contact = () => {
   const theme = useTheme();
@@ -74,7 +75,7 @@ justifyContent={"space-between"}
           </Link>
           </Stack>
 
-          <Typography fontWeight={700} fontSize={"14px"} >Contact us: 9042738209</Typography>
+				  <Typography fontWeight={700} fontSize={"14px"} >Contact us: { mobileNumber}</Typography>
         </Stack>
       </Stack>
       <Stack></Stack>

@@ -1,13 +1,13 @@
 import React from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
 import './../button/Whatsapp.css'; // Don't forget to create and import your CSS file for styling
+import { mobileNumber } from '../common';
 
 const WhatsApp = () => {
-  // Add your WhatsApp number here
-  const whatsappNumber = '9042738209';
+
 
   const openWhatsAppChat = () => {
-    const whatsappLink = `https://wa.me/${whatsappNumber}`;
+    const whatsappLink = `https://wa.me/${mobileNumber}`;
     window.open(whatsappLink, '_blank');
   };
 
