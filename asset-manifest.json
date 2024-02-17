@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.619d7a1b.css",
+    "main.js": "/static/js/main.299bd623.js",
+    "static/js/787.1b0b1c78.chunk.js": "/static/js/787.1b0b1c78.chunk.js",
+    "static/media/Me.jpg": "/static/media/Me.ab480af0ac61bcd246b8.jpg",
+    "static/media/Copy of Consultation Landing page (1).png": "/static/media/Copy of Consultation Landing page (1).ef4c81028c96bd218012.png",
+    "static/media/about.jpeg": "/static/media/about.ef2bba5ec6228a882e21.jpeg",
+    "static/media/Copy of Consultation Landing page.png": "/static/media/Copy of Consultation Landing page.d84d7ae626d1b9f2009b.png",
+    "static/media/thankyou.jpeg": "/static/media/thankyou.9006c2acc636895fe092.jpeg",
+    "index.html": "/index.html",
+    "main.619d7a1b.css.map": "/static/css/main.619d7a1b.css.map",
+    "main.299bd623.js.map": "/static/js/main.299bd623.js.map",
+    "787.1b0b1c78.chunk.js.map": "/static/js/787.1b0b1c78.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.619d7a1b.css",
+    "static/js/main.299bd623.js"
+  ]
+}
