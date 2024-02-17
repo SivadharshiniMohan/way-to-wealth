@@ -5,7 +5,7 @@ import About from './page/About';
 import Contact from './page/Contact';
 import Data from './page/Service';
 import { Stack } from '@mui/material';
-import MutualFundsRoadmap from './component/chart/PieChart';
+import MutualFundsRoadmap from './component/MutalFundsRoadMap';
 
 
 function App() {
