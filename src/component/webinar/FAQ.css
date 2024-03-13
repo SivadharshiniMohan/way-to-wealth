@@ -1,0 +1,62 @@
+  
+  .faq-list {
+	/*width:85%;*/
+	background-color: #fff;
+	
+	padding: 20px;
+	/*border-radius: 8px;*/
+	/*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
+  }
+  
+  .faq-item {
+	margin-bottom: 20px;
+  }
+  
+  .question {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 8px;
+	background-color: #f2f2f2;
+	color: #000;
+	
+  }
+  
+  .question:hover {
+	background-color: #d19c33;
+  }
+  
+  .question-text {
+	flex: 1;
+  }
+  
+  .icon {
+	width: 24px;
+	height: 24px;
+	/*background-image: url('plus.png'); Add your plus icon image*/
+	background-size: cover;
+	transition: transform 0.3s ease;
+  }
+  
+  .icon.minus {
+	transform: rotate(45deg);
+  }
+  
+  .answer {
+	/*padding: 10px;*/
+	border-radius: 8px;
+	background-color: #fff;
+	color: #000;
+	font-size: 13px;
+	overflow: hidden;
+	max-height: 0;
+	transition: max-height 0.3s ease;
+  }
+  
+  .answer.active {
+		padding: 10px;
+	max-height: 500px; /* Adjust this value as needed */
+  }
+  

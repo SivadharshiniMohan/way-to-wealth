@@ -6,26 +6,19 @@ import Contact from './page/Contact';
 import Data from './page/Service';
 import { Stack } from '@mui/material';
 import MutualFundsRoadmap from './component/MutalFundsRoadMap';
+import { Routes, Route, Link as RouterLink } from "react-router-dom";
+import Layout from './component/Layout';
+import Webinar1 from './component/webinar/Webinar1.0';
 
 
 function App() {
-  const roadmapPoints = [
-    'Why Mutual Funds?',
-    'How Do Mutual Funds Work?',
-    'Technical Advantages And Benefits',
-    'Types Of Mutual Funds',
-    'SIP & LUMPSUM',
-    'Active Fund & Passive Fund',
-    'How To Invest In Mutual Funds?',
-  ];
+
   return (
-  <Stack width="100wv" ><Header/>
-  <Home/>
-  <About/>
- <Data/>
-		  <MutualFundsRoadmap points={roadmapPoints} />
-		  <Contact />
-  </Stack>
+//	<Routes>
+//	<Route path="/" element={<Layout/>} />
+//	<Route path="/webinar" element={<Webinar1/>}/>
+	  //  </Routes>
+	  <Webinar1/>
   );
 }
 

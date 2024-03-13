@@ -1,0 +1,20 @@
+.custom-scrollbar {
+	overflow-y: auto; /* Only vertical scrollbar */
+	overflow-x: hidden; /* Hide horizontal scrollbar */
+	scrollbar-width: thin;
+	scrollbar-color: #d19c33 #f1f1f1; /* Set the color for scrollbar thumb and track */
+
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar {
+	width: 12px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+	background-color: #d19c33; /* Set the color for scrollbar thumb */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+	background-color: #f1f1f1; /* Set the color for scrollbar track */
+  }
+  

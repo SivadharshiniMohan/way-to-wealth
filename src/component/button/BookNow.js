@@ -11,7 +11,7 @@ const BookNow = () => {
         color: "#fff",
         "&:hover": { background: "#d19c33" },
       }}
-      href="https://wa.me/9042320515?text=Want to register for Mutual Funds webinar"
+      href="https://rigi.club/wdp/8L2wI1GTmg"
     >
       Book Now
     </Button>

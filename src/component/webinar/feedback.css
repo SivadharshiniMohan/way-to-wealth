@@ -1,0 +1,36 @@
+body {
+	
+	color: #fff;
+  }
+  
+  .card {
+	border: 1px solid #424242;
+	border-radius: 8px;
+	background-color: #424242;
+	margin-bottom: 20px;
+	margin-left: 5px;
+	margin-right:5px;
+  }
+  
+  .card-header {
+	background-color: #075e54;
+	color: #fff;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+  }
+  
+  .whatsapp-icon {
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+  }
+  
+  .username {
+	font-weight: bold;
+  }
+  
+  .card-body {
+	padding: 10px;
+  }
+  
