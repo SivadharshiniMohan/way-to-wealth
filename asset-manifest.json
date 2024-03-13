@@ -1,20 +1,37 @@
 {
   "files": {
-    "main.css": "/static/css/main.619d7a1b.css",
-    "main.js": "/static/js/main.299bd623.js",
+    "main.css": "/static/css/main.05a1c3d0.css",
+    "main.js": "/static/js/main.73815af4.js",
     "static/js/787.1b0b1c78.chunk.js": "/static/js/787.1b0b1c78.chunk.js",
+    "static/media/LearnA-Z.png": "/static/media/LearnA-Z.9c7d7a0f3500517190a3.png",
+    "static/media/Dp-50.png": "/static/media/Dp-50.ba2df1f4c068e9541445.png",
+    "static/media/rm6.png": "/static/media/rm6.1b3555c6709c4a9c8f62.png",
     "static/media/Me.jpg": "/static/media/Me.ab480af0ac61bcd246b8.jpg",
+    "static/media/RM1.png": "/static/media/RM1.375051f3862337690ca1.png",
+    "static/media/WorkingProfessionalsstudent.png": "/static/media/WorkingProfessionalsstudent.4ceb4539bab34041c4b6.png",
+    "static/media/rm5.png": "/static/media/rm5.2710c37c4d2e227b7409.png",
+    "static/media/rm3.png": "/static/media/rm3.17d1b4df356cccc74a9f.png",
+    "static/media/rm4.png": "/static/media/rm4.3bb9d8fccd4757422db2.png",
+    "static/media/WorkingProfessionals.png": "/static/media/WorkingProfessionals.07b0e080c6c0663b48fb.png",
+    "static/media/get2k.png": "/static/media/get2k.b5af26d1d19174cf3b45.png",
+    "static/media/rm2.png": "/static/media/rm2.1f97a509a9103a778ae5.png",
+    "static/media/rm7.png": "/static/media/rm7.1df4182555a9156a67d2.png",
+    "static/media/3R-Learn.png": "/static/media/3R-Learn.620cb5e777c27b12fa69.png",
     "static/media/Copy of Consultation Landing page (1).png": "/static/media/Copy of Consultation Landing page (1).ef4c81028c96bd218012.png",
+    "static/media/clock.png": "/static/media/clock.723cf26fabd3d989a8f9.png",
     "static/media/about.jpeg": "/static/media/about.ef2bba5ec6228a882e21.jpeg",
     "static/media/Copy of Consultation Landing page.png": "/static/media/Copy of Consultation Landing page.d84d7ae626d1b9f2009b.png",
     "static/media/thankyou.jpeg": "/static/media/thankyou.9006c2acc636895fe092.jpeg",
+    "static/media/WorkingProfessionalsbeg.png": "/static/media/WorkingProfessionalsbeg.1df657ae8375aabe703f.png",
+    "static/media/Recording.png": "/static/media/Recording.7fea3373c9d90f2c03de.png",
+    "static/media/calender.png": "/static/media/calender.e51352dd4a2ffad30401.png",
     "index.html": "/index.html",
-    "main.619d7a1b.css.map": "/static/css/main.619d7a1b.css.map",
-    "main.299bd623.js.map": "/static/js/main.299bd623.js.map",
+    "main.05a1c3d0.css.map": "/static/css/main.05a1c3d0.css.map",
+    "main.73815af4.js.map": "/static/js/main.73815af4.js.map",
     "787.1b0b1c78.chunk.js.map": "/static/js/787.1b0b1c78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.619d7a1b.css",
-    "static/js/main.299bd623.js"
+    "static/css/main.05a1c3d0.css",
+    "static/js/main.73815af4.js"
   ]
 }
