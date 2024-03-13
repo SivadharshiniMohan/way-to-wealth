@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.05a1c3d0.css",
-    "main.js": "/static/js/main.73815af4.js",
+    "main.js": "/static/js/main.c11da6bd.js",
     "static/js/787.1b0b1c78.chunk.js": "/static/js/787.1b0b1c78.chunk.js",
-    "static/media/LearnA-Z.png": "/static/media/LearnA-Z.9c7d7a0f3500517190a3.png",
+    "static/media/l1.png": "/static/media/l1.4602d5b60ba35ae5f1cc.png",
     "static/media/Dp-50.png": "/static/media/Dp-50.ba2df1f4c068e9541445.png",
     "static/media/rm6.png": "/static/media/rm6.1b3555c6709c4a9c8f62.png",
     "static/media/Me.jpg": "/static/media/Me.ab480af0ac61bcd246b8.jpg",
+    "static/media/Working Professionals 5k.png": "/static/media/Working Professionals 5k.48c4b7d4f1f34f0c1bbf.png",
     "static/media/RM1.png": "/static/media/RM1.375051f3862337690ca1.png",
     "static/media/WorkingProfessionalsstudent.png": "/static/media/WorkingProfessionalsstudent.4ceb4539bab34041c4b6.png",
     "static/media/rm5.png": "/static/media/rm5.2710c37c4d2e227b7409.png",
@@ -27,11 +28,11 @@
     "static/media/calender.png": "/static/media/calender.e51352dd4a2ffad30401.png",
     "index.html": "/index.html",
     "main.05a1c3d0.css.map": "/static/css/main.05a1c3d0.css.map",
-    "main.73815af4.js.map": "/static/js/main.73815af4.js.map",
+    "main.c11da6bd.js.map": "/static/js/main.c11da6bd.js.map",
     "787.1b0b1c78.chunk.js.map": "/static/js/787.1b0b1c78.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.05a1c3d0.css",
-    "static/js/main.73815af4.js"
+    "static/js/main.c11da6bd.js"
   ]
 }
