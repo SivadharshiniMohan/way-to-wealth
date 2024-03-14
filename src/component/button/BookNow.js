@@ -7,13 +7,15 @@ const BookNow = () => {
       variant="contained"
       size="large"
       sx={{
-        background: "#d19c33",
-        color: "#fff",
-        "&:hover": { background: "#d19c33" },
+        background: "#ffd700",
+		  color: "#000",
+		  fontWeight: 700,
+		  fontSize:"18px",
+        "&:hover": { background: "#ffd700" },
       }}
       href="https://rigi.club/wdp/8L2wI1GTmg"
     >
-      Book Now
+      Book Your Seat
     </Button>
   );
 };

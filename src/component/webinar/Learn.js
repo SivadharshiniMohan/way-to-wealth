@@ -37,15 +37,16 @@ const Learn = () => {
 
   return (
     <Stack width={"100%"} height="500px" >
-      <Typography fontWeight={700} fontSize={"25px"} textAlign={"center"} color="#000" textTransform={"uppercase"}>
+      <Typography fontWeight={700} fontSize={"28px"} textAlign={"center"} color="#000" textTransform={"capitalize"} fontFamily={"Montserrat"} mt={2}>
         Learn in this webinar for?
       </Typography>
       <div className="custom-scrollbar">
-        {data?.map((item, index) => (
-			<CustomCard key={index} title={item.title} content={item.content} icon={ item.icon} />
+			  {data?.map((item, index) => (
+			<Stack direction={"row"} width={"100%"} justifyContent={"center"}>
+			<CustomCard key={index} title={item.title} content={item.content} icon={ item.icon} /></Stack>
         ))}
 		  </div>
-		  <BookNow/>
+		  <Stack width={"80%"} mx={5} mt={2}><BookNow /></Stack>
     </Stack>
   );
 };

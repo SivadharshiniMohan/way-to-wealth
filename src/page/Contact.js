@@ -20,31 +20,10 @@ const Contact = () => {
     },
   };
   return (
-    <Stack height={"90vh"} className="footer"  width={"100%"}>
-       
-      <Stack
-        height={"20vh"}
-        direction={"row"}
-        alignItems={"center"}
-        justifyContent={"center"}
-      >
-        {" "}
-        <Typography fontSize={"22px "} fontWeight={700} color="#313c44" px={5}>
-          Thank you for reaching us! Let's work together to achieve your
-          financial goals.
-        </Typography>
-      </Stack>
-      <Stack
-        height={"60vh"}
-        direction={"row"}
-        alignItems={"center"}
-        justifyContent={"center"}
-        // width={"100%"}
-        mx={10}
-      >
-        <img src={thankYou} height={"350px"} width={isMobileView ? "130%":"50%"} />
-      </Stack>
-      <Stack sx={{ background: "#f8f7f1" }} width={"100%"}>
+    <Stack height={"10vh"} className="footer"  width={"100%"} sx={{background: "#000"}}>
+
+   
+      <Stack sx={{ background: "#000", color:"#fff" }} width={"100%"}>
         <Stack
           height="10vh"
           direction={"row"}
@@ -52,9 +31,9 @@ const Contact = () => {
 justifyContent={"space-between"}        
        
         >
-           <a className="anchor" id="contact"></a>
-           <Stack direction={"row"} alignItems="center"  width={isMobileView?"80%":"auto"} mx={2} gap={1}>
-           <Typography fontWeight={700} fontSize={"14px"} >Follow on: </Typography>
+           {/*<a className="anchor" id="contact"></a>*/}
+           <Stack direction={"row"} alignItems="center"  width={isMobileView?"100%":"auto"} gap={.5}>
+           <Typography fontWeight={700} fontSize={"14px"} mx={2}>Follow on: </Typography>
           <Link
             className="header-menu"
             href="https://www.instagram.com/wayto.wealth/"
@@ -75,11 +54,11 @@ justifyContent={"space-between"}
           </Link>
           </Stack>
 
-				  <Typography fontWeight={700} fontSize={"14px"} >Contact us: { mobileNumber}</Typography>
+				  <Typography fontWeight={700} fontSize={"14px"} mx={2}>Contact us: { mobileNumber}</Typography>
         </Stack>
       </Stack>
       <Stack></Stack>
-      <WhatsApp />
+      {/*<WhatsApp />*/}
     </Stack>
   );
 };

@@ -47,10 +47,12 @@ const Who = () => {
 	
 	return <Stack width="100%">
 
-	  <Typography  fontWeight={700} fontSize={"25px"} textAlign={"center"} color="#000" textTransform={"uppercase"}>Roadmap of the webinar</Typography>
+	  <Typography  fontWeight={700} fontSize={"28px"} textAlign={"center"} color="#000" textTransform={"capitalize"} fontFamily={"Montserrat"} mt={2}>Roadmap of the webinar</Typography>
 
 	  {data?.map((item) => {
-		  return <CustomCard title={item.title} content={item.content} icon={item.icon} />
+		  return <Stack direction={"row"} width={"100%"} justifyContent={"center"}>
+			  <CustomCard title={item.title} content={item.content} icon={item.icon} />
+			  </Stack>
   })}
   </Stack>
 }

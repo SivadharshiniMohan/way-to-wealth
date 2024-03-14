@@ -21,10 +21,12 @@ const MonthlySalary = () => {
 		}]
 	return <Stack width="100%">
       <Stack direction="column" alignItems="center" justifyContent="center" my={2}  textAlign="center">
-		<Typography color="#000" fontWeight={700} fontSize={"30px"} textTransform={"uppercase"}>This webinar is designed for</Typography>
+		<Typography color="#000" fontWeight={700} fontSize={"30px"} textTransform={"capitalize"} fontFamily={"Montserrat"} mt={2}>This webinar is designed for</Typography>
 		</Stack>
 		{data?.map((item) => {
-			return <CustomCard title={item.title} content={item.content} icon={item.icon} />
+			return<Stack direction={"row"} width={"100%"} justifyContent={"center"}>
+				<CustomCard title={item.title} content={item.content} icon={item.icon} />
+				</Stack>
 	})}
 	</Stack>
 

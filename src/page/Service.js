@@ -60,7 +60,7 @@ const Data = () => {
         <Grid item xs={12} sm={6} md={4}  gridAutoRows={"300px"}  >
           <Paper>
             <div className="icon-section">
-              <img src={Consultation1} height={"75px"} width={"75px"} fontSize={"10px"}/>
+              <img src={Consultation1} height={"75px"} width={"75px"} fontSize={"10px"} loading="lazy"/>
               <br />
               <Typography fontSize="20px" fontWeight={600}>
                 3 HOURS LIVE WEBINAR
@@ -79,7 +79,7 @@ const Data = () => {
         <Grid item xs={12} sm={6} md={4} gridAutoRows={"300px"}>
   <Paper >
     <div className="icon-section">
-      <img src={Consultation} height={"50px"} width={"50px"} />
+      <img src={Consultation} height={"50px"} width={"50px"} loading="lazy"/>
       <br />
       <Typography fontSize="20px" fontWeight={600}>
         TAKE AWAY

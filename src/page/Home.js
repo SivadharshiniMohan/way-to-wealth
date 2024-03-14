@@ -64,7 +64,7 @@ const Home = () => {
       <Grid container flexDirection={isMobileView ? "column" : "row"} >
       <Grid item lg={6} md={6} sm={12} style={styles.gridItem}>
       <div style={styles.imageContainer}>
-        <img src={selfDp} alt="Founder" style={styles.image} />
+        <img src={selfDp} alt="Founder" style={styles.image} loading="lazy"/>
         <div style={styles.founderLabel}>Kalanithi Pandiyan </div>
         <div style={styles.founderLabel2}>Founder of Way to Wealth </div>
         

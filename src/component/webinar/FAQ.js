@@ -18,7 +18,7 @@ const FAQList = () => {
 
   return (
     <div className="faq-list">
-      <Typography color={"#000"} fontSize={"20px"} fontWeight={600}  textAlign={"center"} my={.5} textTransform={"uppercase"}>Frequently Asked Questions</Typography>
+      <Typography color={"#000"} fontSize={"20px"} fontWeight={600}  textAlign={"center"} my={2} textTransform={"capitalize"} fontFamily={"Montserrat"} >Frequently Asked Questions</Typography>
       {faqs.map((faq, index) => (
         <div key={index} className="faq-item">
           <div className="question" onClick={() => handleToggle(index)}>

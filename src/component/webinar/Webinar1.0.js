@@ -11,6 +11,10 @@ import "./feedback.css";
 import FAQList from "./FAQ";
 import Dp from "./../../assets/images/Me.jpg";
 import BookNow from "../button/BookNow";
+import Mentor from "./Mentor";
+import "./../webinar/webinar.css";
+import Record from "./Records";
+import Contact from "../../page/Contact";
 
 const Webinar1 = () => {
 	const theme = useTheme();
@@ -19,7 +23,8 @@ const Webinar1 = () => {
 		{ username: "User1", message: "This is the first feedback message." },
 		{ username: "User2", message: "This is the second feedback message." },
 		// Add more feedback objects as needed
-	  ];
+	];
+	
 	return <Stack     direction="column"
 	spacing={2} // Adjust spacing as needed
 	sx={{
@@ -29,37 +34,28 @@ const Webinar1 = () => {
 	  boxSizing: "border-box", // Include padding and border in the width
 		 // Add padding as needed
 		height: "100%",
-		maxHeight: "100%"
+		maxHeight: "100%",
+		fontFamily:'Montserrat', 
 	  
 		}} px={2} >
 
 		<Describe />
+		<Record/>
 		<MonthlySalary />
 		<Register />
-		<Who />
-		<Learn />
-		<Stack  sx={{background:"#000"}} color={"#fff"} width={"100%"} m={2}>
-	<Grid container>
-			<Typography color="#fff" textAlign={"center"} my={2}  width="100%" fontWeight={600} fontSize={"30px"} alignItems={"center"} textTransform={"uppercase"}>Meet Out Mentor</Typography>
-		<Grid item sm={12} md={6}>
-			<Typography sx={{textAlign:"center", mx:2}}>
-Kalanithi Pandiyan, the Way to Wealth founder. He's been involved in Mutual Funds, Stocks, and Personal Finance for 6 years. With 170k Instagram followers, he's assisted 5k individuals through easy-to-understand webinars, providing personalized one-on-one consultation and mentorship.</Typography>
-		</Grid>
-				<Grid item sm={12} md={6} my={2} mx={10}  width={"100%"}>
-					<img src={Dp}  width= {isMobileView ? '100%' : '500'} height= {isMobileView ? '400px' : '650px'}/>
-					
-			
-			</Grid>
-			</Grid>
-			<Stack direction={"row"} justifyContent={"center"} alignItems={"center"} m={2}>	<BookNow/></Stack>
 		
-		</Stack>
+		<Who />
+
+		<Learn />
+		<Mentor/>
 		{/*<div className="feedback-container">
         {feedbackData.map((feedback, index) => (
           <FeedbackCard key={index} username={feedback.username} message={feedback.message} />
         ))}
 		</div>*/}
-		<FAQList/>
+		<FAQList />
+		<Contact/>
+		
 	</Stack>
 }
 
