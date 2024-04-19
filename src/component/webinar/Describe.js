@@ -7,6 +7,7 @@ import BookNow from "../button/BookNow";
 import dp from "./../../assets/images/newdp.png";
 import clock from "./../../assets/images/clock.png";
 import calender from "./../../assets/images/calender.png";
+import { DATE, TIME } from "../../constant/AppConstant";
 
 
 const Describe = () => {
@@ -27,9 +28,9 @@ const Describe = () => {
 				{
 					!isMobileView&&	<><Typography sx={{fontSize: "13px",color:"#fff",m:2  }}>THE <b>WAY TO MUTUAL FUNDS</b> WEBINAR IS BEGINNER-FRIENDLY AND CAN EASILY ACHIEVE YOUR FINANCIAL GOAL.</Typography>
 				
-					<Stack sx={{ display: "grid", alignItems: "center", justifyContent: "center" }}><TimeDate icon={calender} content="07/04/2024, Sunday" />
+						<Stack sx={{ display: "grid", alignItems: "center", justifyContent: "center" }}><TimeDate icon={calender} content={ DATE} />
 				
-					<TimeDate icon={clock} content="11:00 AM - 2:00 PM IST" /></Stack>
+					<TimeDate icon={clock} content={TIME} /></Stack>
 					<Stack width={"80%"} mx={5} mt={2}><BookNow /></Stack></>
 				}
 			</Grid>
@@ -43,7 +44,7 @@ const Describe = () => {
 				
 				{isMobileView &&<>	<Typography sx={{fontSize: "13px",color:"#fff",m:2  }}>THE <b>WAY TO MUTUAL FUNDS</b> WEBINAR IS BEGINNER-FRIENDLY AND CAN EASILY ACHIEVE YOUR FINANCIAL GOAL.</Typography>
 				
-				<Stack sx={{ display: "grid", alignItems: "center", justifyContent: "center" }}><TimeDate icon={calender} content="07/04/2024, Sunday" />
+				<Stack sx={{ display: "grid", alignItems: "center", justifyContent: "center" }}><TimeDate icon={calender} content={DATE} />
 			
 				<TimeDate icon={clock} content="11:00 AM - 2:00 PM IST" /></Stack>
 				<Stack width={"80%"} mx={5} mt={2}><BookNow /></Stack></>}

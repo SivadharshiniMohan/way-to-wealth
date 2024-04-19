@@ -1,5 +1,6 @@
 import { Button } from "@mui/material";
 import React from "react";
+import { PAYMENT } from "../../constant/AppConstant";
 
 const BookNow = () => {
   return (
@@ -13,7 +14,7 @@ const BookNow = () => {
 		  fontSize:"18px",
         "&:hover": { background: "#ffd700" },
       }}
-      href="https://rigi.club/wdp/8L2wI1GTmg"
+      href={PAYMENT}
     >
       Book Your Seat
     </Button>

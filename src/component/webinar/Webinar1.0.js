@@ -2,15 +2,12 @@ import React from "react";
 import Describe from "./Describe";
 import MonthlySalary from "./MonthlySalary";
 import Register from "./Register";
-import { Grid, Stack, Typography,  useMediaQuery,
+import { Stack,   useMediaQuery,
 	useTheme, } from "@mui/material";
 import Who from "./Who";
 import Learn from "./Learn";
-import FeedbackCard from "./FeedBack";
 import "./feedback.css";
 import FAQList from "./FAQ";
-import Dp from "./../../assets/images/Me.jpg";
-import BookNow from "../button/BookNow";
 import Mentor from "./Mentor";
 import "./../webinar/webinar.css";
 import Record from "./Records";
