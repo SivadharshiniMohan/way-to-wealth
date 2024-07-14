@@ -1,8 +1,6 @@
 import { Grid, Stack, Typography, useMediaQuery,useTheme } from "@mui/material";
 import React from "react";
-import DateRangeIcon from '@mui/icons-material/DateRange';
 import TimeDate from "./TimeDate";
-import AccessAlarmIcon from '@mui/icons-material/AccessAlarm';
 import BookNow from "../button/BookNow";
 import dp from "./../../assets/images/newdp.png";
 import clock from "./../../assets/images/clock.png";
@@ -19,10 +17,6 @@ const Describe = () => {
 			<Grid item sm={12} md={6} >
 				<Stack direction="row" sx={{alignItems:"center", justifyContent:"center"}}>
 				<Stack><Typography sx={{ fontSize: "30px", fontWeight: 600, color: "#fff",fontFamily:"Montserrat" }} mx={2}>Master <span style={{ color: "#fdcd0d", fontStyle:"italic"}}>Mutual Funds</span> in just 3 hours webinar</Typography>
-				{/*<Typography sx={{fontSize: "30px",fontWeight: 800, color:"#fdcd0d",  }}>PROFITABLE
-					INCOME SOURCE</Typography>
-					<Typography sx={{fontSize: "15px",color:"#fff",  }}>CEO of Way to Wealth
-							Tamilnadu's #1 comprehensive trading community</Typography>*/}
 					</Stack>
 				</Stack>
 				{

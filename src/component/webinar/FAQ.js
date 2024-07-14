@@ -5,9 +5,6 @@ import { Typography } from '@mui/material';
 const FAQList = () => {
   const faqs = [
     { question: "Is Recording available?", answer: "Yes, Its available." },
-    //{ question: "I have zero knowledge about trading. Can I join?", answer: "You will receive the zoom link via whatsapp. Once you sign up for the webinar you will be added into our WhatsApp community where you will receive the zoom link.  Reminders will be sent before the webinar as well." },
-    //{ question: "I have zero knowledge about trading. Can I join?", answer: "You will receive the zoom link via whatsapp. Once you sign up for the webinar you will be added into our WhatsApp community where you will receive the zoom link.  Reminders will be sent before the webinar as well.." },
-    // Add more FAQs as needed
   ];
 
   const [expandedIndex, setExpandedIndex] = useState(null);

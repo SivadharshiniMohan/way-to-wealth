@@ -1,8 +1,5 @@
 import { Stack, Typography } from "@mui/material";
 import React from "react";
-import Professionals from "./../../assets/images/WorkingProfessionals.png";
-import student from "./../../assets/images/WorkingProfessionalsstudent.png";
-import Beginners from "./../../assets/images/WorkingProfessionalsbeg.png"
 
 const CustomCard = (props) => {
 	const {  icon,title, content } = props

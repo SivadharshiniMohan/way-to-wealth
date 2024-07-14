@@ -2,8 +2,7 @@ import React from "react";
 import Describe from "./Describe";
 import MonthlySalary from "./MonthlySalary";
 import Register from "./Register";
-import { Stack,   useMediaQuery,
-	useTheme, } from "@mui/material";
+import { Stack } from "@mui/material";
 import Who from "./Who";
 import Learn from "./Learn";
 import "./feedback.css";
@@ -13,15 +12,7 @@ import "./../webinar/webinar.css";
 import Record from "./Records";
 import Contact from "../../page/Contact";
 
-const Webinar1 = () => {
-	const theme = useTheme();
-	const isMobileView = useMediaQuery(theme.breakpoints.down("sm"));
-	const feedbackData = [
-		{ username: "User1", message: "This is the first feedback message." },
-		{ username: "User2", message: "This is the second feedback message." },
-		// Add more feedback objects as needed
-	];
-	
+const Webinar1 = () => {	
 	return <Stack     direction="column"
 	spacing={2} // Adjust spacing as needed
 	sx={{
@@ -45,11 +36,6 @@ const Webinar1 = () => {
 
 		<Learn />
 		<Mentor/>
-		{/*<div className="feedback-container">
-        {feedbackData.map((feedback, index) => (
-          <FeedbackCard key={index} username={feedback.username} message={feedback.message} />
-        ))}
-		</div>*/}
 		<FAQList />
 		<Contact/>
 		

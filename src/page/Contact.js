@@ -1,11 +1,8 @@
 import { Link, Stack, Typography,useTheme, useMediaQuery } from "@mui/material";
 import React from "react";
 import { FaTelegram, FaInstagram } from 'react-icons/fa';
-
 import "./../component/Header.css";
 import "./Contact.css";
-import thankYou from "./../assets/images/thankyou.jpeg";
-import WhatsApp from "../component/button/Whatsapp";
 import { mobileNumber } from "../component/common";
 
 const Contact = () => {
@@ -58,7 +55,6 @@ justifyContent={"space-between"}
         </Stack>
       </Stack>
       <Stack></Stack>
-      {/*<WhatsApp />*/}
     </Stack>
   );
 };
