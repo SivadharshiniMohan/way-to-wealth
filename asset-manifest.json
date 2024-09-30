@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.978e8ad3.css",
-    "main.js": "/static/js/main.6ee52567.js",
+    "main.js": "/static/js/main.1260fbfd.js",
     "static/js/787.1b0b1c78.chunk.js": "/static/js/787.1b0b1c78.chunk.js",
+    "static/media/Way to wealth website - compressed.mp4": "/static/media/Way to wealth website - compressed.b82f10cfa5791d37bb49.mp4",
     "static/media/l1.png": "/static/media/l1.4602d5b60ba35ae5f1cc.png",
     "static/media/newdp.png": "/static/media/newdp.1db9f87566d95a739b77.png",
     "static/media/rm6.png": "/static/media/rm6.1b3555c6709c4a9c8f62.png",
@@ -24,11 +25,11 @@
     "static/media/calender.png": "/static/media/calender.e51352dd4a2ffad30401.png",
     "index.html": "/index.html",
     "main.978e8ad3.css.map": "/static/css/main.978e8ad3.css.map",
-    "main.6ee52567.js.map": "/static/js/main.6ee52567.js.map",
+    "main.1260fbfd.js.map": "/static/js/main.1260fbfd.js.map",
     "787.1b0b1c78.chunk.js.map": "/static/js/787.1b0b1c78.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.978e8ad3.css",
-    "static/js/main.6ee52567.js"
+    "static/js/main.1260fbfd.js"
   ]
 }
