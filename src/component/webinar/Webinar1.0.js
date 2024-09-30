@@ -12,6 +12,8 @@ import "./../webinar/webinar.css";
 import Record from "./Records";
 import Contact from "../../page/Contact";
 
+import vs from "./../../assets/videos/Way to wealth website - compressed.mp4"
+
 const Webinar1 = () => {	
 	return <Stack     direction="column"
 	spacing={2} // Adjust spacing as needed
@@ -28,11 +30,14 @@ const Webinar1 = () => {
 		}} px={2} >
 
 		<Describe />
+            <video  src={vs} width="100%" height="300" controls autoPlay muted />
+
 		<Record/>
 		<MonthlySalary />
 		<Register />
 		
 		<Who />
+
 
 		<Learn />
 		<Mentor/>
